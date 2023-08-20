@@ -1,11 +1,11 @@
 let users: object[];
 
 users = [];
-
-let user1: { userName: string; userId: number };
+type User = { userName: string; userId: number };
+let user1: User;
 user1 = { userName: "Niloy Roy", userId: 12 };
 
-let user2: { userName: string; userId: number };
+let user2: User;
 user2 = { userName: "Saddat Hossain", userId: 14 };
 
 users.push(user1);
